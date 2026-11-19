@@ -44,3 +44,16 @@ Connect the existing Mímir/Huginn/Muninn composite agent-memory bridge to Bifr�
 
 **Canonical authority:** The primary Bifröst Viewer roadmap above resolves conflicts; individual source code and verified deployed evidence establish what is actually implemented.
 
+
+## 2026-11-19: read-only bridge to the managed raw library and living visual lore
+
+This repository is a **separate composite agent-memory bridge**, not the authoritative Bifröst Viewer raw-document store. The owner's newer Bifröst requirements supersede any conflicting older architectural restrictions. The canonical documents are the [November 19 additive modernization roadmap](https://github.com/hrabanazviking/bifrost-viewer/blob/docs/second-brain-incremental-multimodal-gateway-2026-11-19/docs/roadmaps/SECOND_BRAIN_ADDITIVE_INCREMENTAL_MULTIMODAL_GATEWAY_2026-11-19.md) and the [managed folder / delta ingestion spec](https://github.com/hrabanazviking/bifrost-viewer/blob/docs/second-brain-incremental-multimodal-gateway-2026-11-19/docs/roadmaps/SECOND_BRAIN_MANAGED_RAW_LIBRARY_FOLDERS_2026-11-19.md).
+
+- Reuse authorized read-only Bifröst knowledge APIs for documents, folder category paths, source-instance locations, exhaustive image descriptions, visual lore and derived graph evidence. Do not ingest or maintain a duplicate representation of Bifröst's whole raw library.
+- Clients can discover categories and request context for the entire permitted second brain without configuring separate per-character folder restrictions.
+- When duplicate content occurs in multiple folders, retain all returned provenance and category associations; when a source moves, use the updated location from Bifröst without pretending the knowledge has changed.
+- Do not create a new canonical source writer, bypass Ingest, modify local source files, or promote image-generation output into approved visual lore without the owner's ingestion action.
+- Handle offline Bifröst server, revoked keys, stale source revisions, inaccessible media, URL expiry and incomplete multimodal extraction honestly. Do not send private source images to hosted services without owner-approved purpose.
+- Integration acceptance: same knowledge reachable through optional bridge; folder move changes location/context but not derived content; no redundant embeddings; original composite bridge functions unchanged with integration disabled.
+
+Status: add-on plan only, not proof of installed functionality. After canonical merge, point these links to the main-branch paths.
